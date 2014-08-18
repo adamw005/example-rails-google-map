@@ -1,0 +1,14 @@
+- if @location.errors.present?
+  %ul
+    - @location.errors.full_messages.each do |error|
+      %li= error
+= form_for @location do |f|
+  %dl
+    %dt= f.label :address
+    %dd= f.text_field :address, autofocus: 'autofocus'
+
+  = f.submit "Add Address"
+
+%ul
+  - @locations.each do |location|
+    %li= location.address

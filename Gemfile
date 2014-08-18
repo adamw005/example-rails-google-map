@@ -9,3 +9,7 @@ gem 'haml-rails'
 gem 'rails', '4.1.4'
 gem 'sass-rails'
 gem 'uglifier'
+
+group :development, :test do
+  gem 'rspec-rails'
+end

@@ -3,6 +3,7 @@ ruby '2.1.2'
 #ruby-gemset=sample-rails-google-map
 
 gem 'coffee-rails'
+gem 'geocoder'
 gem 'jquery-rails'
 gem 'pg'
 gem 'haml-rails'

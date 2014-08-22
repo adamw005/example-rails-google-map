@@ -45,6 +45,7 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.2.1)
+    geocoder (1.2.4)
     haml (4.0.5)
       tilt
     haml-rails (0.5.3)
@@ -139,6 +140,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   coffee-rails
+  geocoder
   haml-rails
   jquery-rails
   pg

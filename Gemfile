@@ -7,8 +7,8 @@ gem 'geocoder'
 gem 'jquery-rails'
 gem 'pg'
 gem 'haml-rails'
-gem 'rails', '4.1.4'
-gem 'sass-rails'
+gem 'rails', '4.2.0.beta1'
+gem 'sass-rails', '5.0.0.beta1'
 gem 'uglifier'
 
 group :development, :test do

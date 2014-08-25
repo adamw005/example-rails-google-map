@@ -55,6 +55,7 @@ GEM
     geocoder (1.2.4)
     globalid (0.2.3)
       activesupport (>= 4.1.0)
+    gmaps4rails (2.1.2)
     haml (4.0.5)
       tilt
     haml-rails (0.5.3)
@@ -152,6 +153,7 @@ DEPENDENCIES
   capybara
   coffee-rails
   geocoder
+  gmaps4rails
   haml-rails
   jquery-rails
   pg

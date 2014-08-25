@@ -4,6 +4,7 @@ ruby '2.1.2'
 
 gem 'coffee-rails'
 gem 'geocoder'
+gem 'gmaps4rails'
 gem 'jquery-rails'
 gem 'pg'
 gem 'haml-rails'

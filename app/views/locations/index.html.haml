@@ -11,9 +11,19 @@
 
 #map(style='width: 1020px; height: 500px;')
 
-%ul
-  - @locations.each do |location|
-    %li= location.address
+%table
+  %thead
+    %tr
+      - %w(Address Latitude Longitude).each do |th|
+        %th= th
+      %th
+  %tbody
+    - @locations.each do |location|
+      %tr
+        %td= location.address
+        %td= location.latitude
+        %td= location.longitude
+        %td= link_to "Delete", location_path(location), method: :delete
 
 :javascript
   handler = Gmaps.build('Google');

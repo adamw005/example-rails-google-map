@@ -17,6 +17,13 @@ class LocationsController < ApplicationController
     end
   end
 
+  def destroy
+    @location = Location.find(params[:id])
+    @location.delete
+    flash[:alert] = "Succesfully removed #{@location.address}."
+    redirect_to :locations
+  end
+
   private
 
   def location_params

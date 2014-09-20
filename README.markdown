@@ -10,10 +10,10 @@ Visitors have the ability to put in an address, that address is then geocoded an
 
 ## Setup
 
-To install neccesary gems:
+To setup the app run:
 
-    bundle
+    bin/setup
 
-To run the test suite:
+Now run the test suite to make sure everything is passing:
 
     rake
